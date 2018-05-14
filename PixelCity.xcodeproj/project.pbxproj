@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F19244D20A9287600987B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19244C20A9287600987B73 /* AppDelegate.swift */; };
+		5F19245220A9287600987B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F19245020A9287600987B73 /* Main.storyboard */; };
+		5F19245420A9287600987B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F19245320A9287600987B73 /* Assets.xcassets */; };
+		5F19245720A9287600987B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F19245520A9287600987B73 /* LaunchScreen.storyboard */; };
+		5F19246320A92AF400987B73 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19246220A92AF400987B73 /* MapVC.swift */; };
+		5F19246520A9305E00987B73 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19246420A9305E00987B73 /* DroppablePin.swift */; };
+		5F19246720A937FF00987B73 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19246620A937FF00987B73 /* PhotoCell.swift */; };
+		5F19246920A9398800987B73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19246820A9398800987B73 /* Constants.swift */; };
+		5F19246B20A9418200987B73 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F19246A20A9418200987B73 /* PopVC.swift */; };
+		BC2A10EF04FFDB1499341076 /* Pods_PixelCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A57DFD43A5F904B1D3F3D7E /* Pods_PixelCity.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A57DFD43A5F904B1D3F3D7E /* Pods_PixelCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixelCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F19244920A9287600987B73 /* PixelCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixelCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F19244C20A9287600987B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F19245120A9287600987B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F19245320A9287600987B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F19245620A9287600987B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F19245820A9287600987B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F19246220A92AF400987B73 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		5F19246420A9305E00987B73 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		5F19246620A937FF00987B73 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		5F19246820A9398800987B73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F19246A20A9418200987B73 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		DA10C89E6156ED67BDB75A72 /* Pods-PixelCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity.release.xcconfig"; sourceTree = "<group>"; };
+		E770B208EB57241CEE73A369 /* Pods-PixelCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixelCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F19244620A9287600987B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2A10EF04FFDB1499341076 /* Pods_PixelCity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F19244020A9287600987B73 = {
+			isa = PBXGroup;
+			children = (
+				5F19244B20A9287600987B73 /* PixelCity */,
+				5F19244A20A9287600987B73 /* Products */,
+				CD7DDD0A3E5C078C240D9A52 /* Pods */,
+				ACD05C83BA298ACCD5C65AAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5F19244A20A9287600987B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F19244920A9287600987B73 /* PixelCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F19244B20A9287600987B73 /* PixelCity */ = {
+			isa = PBXGroup;
+			children = (
+				5F19246120A9288E00987B73 /* Utilities */,
+				5F19246020A9288200987B73 /* Extensions */,
+				5F19245F20A9287F00987B73 /* Views */,
+				5F19245E20A9287B00987B73 /* Controllers */,
+				5F19244C20A9287600987B73 /* AppDelegate.swift */,
+				5F19245020A9287600987B73 /* Main.storyboard */,
+				5F19245320A9287600987B73 /* Assets.xcassets */,
+				5F19245520A9287600987B73 /* LaunchScreen.storyboard */,
+				5F19245820A9287600987B73 /* Info.plist */,
+			);
+			path = PixelCity;
+			sourceTree = "<group>";
+		};
+		5F19245E20A9287B00987B73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F19246220A92AF400987B73 /* MapVC.swift */,
+				5F19246A20A9418200987B73 /* PopVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5F19245F20A9287F00987B73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F19246420A9305E00987B73 /* DroppablePin.swift */,
+				5F19246620A937FF00987B73 /* PhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5F19246020A9288200987B73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5F19246120A9288E00987B73 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5F19246820A9398800987B73 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ACD05C83BA298ACCD5C65AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A57DFD43A5F904B1D3F3D7E /* Pods_PixelCity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD7DDD0A3E5C078C240D9A52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E770B208EB57241CEE73A369 /* Pods-PixelCity.debug.xcconfig */,
+				DA10C89E6156ED67BDB75A72 /* Pods-PixelCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F19244820A9287600987B73 /* PixelCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F19245B20A9287600987B73 /* Build configuration list for PBXNativeTarget "PixelCity" */;
+			buildPhases = (
+				02AAFB02CA4FB13518A7E5B7 /* [CP] Check Pods Manifest.lock */,
+				5F19244520A9287600987B73 /* Sources */,
+				5F19244620A9287600987B73 /* Frameworks */,
+				5F19244720A9287600987B73 /* Resources */,
+				09D59A42EE49A9A04E567A61 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixelCity;
+			productName = PixelCity;
+			productReference = 5F19244920A9287600987B73 /* PixelCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F19244120A9287600987B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Marcus Ng";
+				TargetAttributes = {
+					5F19244820A9287600987B73 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 5F19244420A9287600987B73 /* Build configuration list for PBXProject "PixelCity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F19244020A9287600987B73;
+			productRefGroup = 5F19244A20A9287600987B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F19244820A9287600987B73 /* PixelCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F19244720A9287600987B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F19245720A9287600987B73 /* LaunchScreen.storyboard in Resources */,
+				5F19245420A9287600987B73 /* Assets.xcassets in Resources */,
+				5F19245220A9287600987B73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02AAFB02CA4FB13518A7E5B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PixelCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09D59A42EE49A9A04E567A61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PixelCity/Pods-PixelCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F19244520A9287600987B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F19246B20A9418200987B73 /* PopVC.swift in Sources */,
+				5F19246920A9398800987B73 /* Constants.swift in Sources */,
+				5F19246720A937FF00987B73 /* PhotoCell.swift in Sources */,
+				5F19244D20A9287600987B73 /* AppDelegate.swift in Sources */,
+				5F19246520A9305E00987B73 /* DroppablePin.swift in Sources */,
+				5F19246320A92AF400987B73 /* MapVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F19245020A9287600987B73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F19245120A9287600987B73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F19245520A9287600987B73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F19245620A9287600987B73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F19245920A9287600987B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F19245A20A9287600987B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F19245C20A9287600987B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E770B208EB57241CEE73A369 /* Pods-PixelCity.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YCPCF4H7X;
+				INFOPLIST_FILE = PixelCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarcusNg.PixelCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F19245D20A9287600987B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA10C89E6156ED67BDB75A72 /* Pods-PixelCity.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YCPCF4H7X;
+				INFOPLIST_FILE = PixelCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarcusNg.PixelCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F19244420A9287600987B73 /* Build configuration list for PBXProject "PixelCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F19245920A9287600987B73 /* Debug */,
+				5F19245A20A9287600987B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F19245B20A9287600987B73 /* Build configuration list for PBXNativeTarget "PixelCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F19245C20A9287600987B73 /* Debug */,
+				5F19245D20A9287600987B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F19244120A9287600987B73 /* Project object */;
+}
